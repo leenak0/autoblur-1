@@ -22,9 +22,9 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/Main_logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/img_main_logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_gravity="center"
             app:srcCompat="@drawable/logo" />
     </LinearLayout>
@@ -36,23 +36,23 @@
         android:orientation="vertical">
 
         <ImageButton
-            android:id="@+id/Main_face_"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/btn_main_face"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
             android:layout_gravity="center"
             android:background="@drawable/main1_select" />
 
         <ImageButton
-            android:id="@+id/Main_button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/btn_main_picture"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
             android:layout_gravity="center"
             android:background="@drawable/main2_select" />
 
         <ImageButton
-            android:id="@+id/Main_button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/btn_main_video"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
             android:layout_gravity="center"
             android:background="@drawable/main3_select" />
     </LinearLayout>
